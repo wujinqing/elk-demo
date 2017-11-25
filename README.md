@@ -95,17 +95,15 @@ X-Pack 将诸多强大功能集合到一个单独的程序包中，更将它带�
 
 
 ### 附录A - Elasticsearch 安装
-
 ![Elasticsearch安装步骤](doc/img/Elasticsearch安装步骤.png)
 
 ### 附录B - Logstash 安装
+![Logstash安装步骤](doc/img/Logstash安装步骤.png)
 
 ### 附录C - Kibana 安装
-
 ![Kibana安装步骤](doc/img/Kibana安装步骤.png)
 
 ### 附录D - X-Pack 安装
-
 ![X-Pack安装步骤一](doc/img/X-Pack安装步骤一.png)
 ![X-Pack安装步骤二](doc/img/X-Pack安装步骤二.png)
 
