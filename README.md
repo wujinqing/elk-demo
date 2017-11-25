@@ -89,12 +89,14 @@ X-Pack 将诸多强大功能集合到一个单独的程序包中，更将它带�
 
 
 7.登录
-> http://localhost:5601/   用户名:elastic 密码：auto
+> http://localhost:5601/   
+
+> 用户名:elastic 密码：auto
 
 
 
-
-
+![X-Pack安装步骤一](doc/img/X-Pack安装步骤一.png)
+![X-Pack安装步骤二](doc/img/X-Pack安装步骤二.png)
 
 
 
