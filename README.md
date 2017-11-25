@@ -41,6 +41,15 @@ X-Pack 将诸多强大功能集合到一个单独的程序包中，更将它带�
 > curl http://localhost:9200/
 
 ### Logstash 安装
+下载地址
+> https://www.elastic.co/cn/downloads/logstash
+
+1.下载并解压
+
+2.准备好配置文件 logstash.conf
+
+3.启动
+> bin/logstash -f logstash.conf
 
 
 ### Kibana 安装
@@ -95,6 +104,16 @@ X-Pack 将诸多强大功能集合到一个单独的程序包中，更将它带�
 
 > 用户名:elastic 密码：auto
 
+### 通过zip安装X-Pack
+
+> [官方文档](https://www.elastic.co/guide/en/elasticsearch/reference/6.0/installing-xpack-es.html)
+
+> elasticsearch-plugin install file:/Users/wujinqing/tools/ELK/x-pack-6.0.0.zip
+
+> kibana-plugin install file:/Users/wujinqing/tools/ELK/x-pack-6.0.0.zip
+
+> logstash-plugin install file:/Users/wujinqing/tools/ELK/x-pack-6.0.0.zip
+
 
 ### 附录A - [Elasticsearch 安装](https://www.elastic.co/downloads/elasticsearch)
 ![Elasticsearch安装步骤](doc/img/Elasticsearch安装步骤.png)
@@ -109,9 +128,8 @@ X-Pack 将诸多强大功能集合到一个单独的程序包中，更将它带�
 ![X-Pack安装步骤一](doc/img/X-Pack安装步骤一.png)
 ![X-Pack安装步骤二](doc/img/X-Pack安装步骤二.png)
 
-
-
-
+### 附录D - [启用和禁用X-Pack特性](https://www.elastic.co/guide/en/x-pack/current/installing-xpack.html#xpack-installing-offline)
+![启用和禁用X-Pack特性](doc/img/启用和禁用X-Pack特性.png)
 
 
 
