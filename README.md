@@ -45,6 +45,17 @@ X-Pack 将诸多强大功能集合到一个单独的程序包中，更将它带�
 下载地址
 > https://www.elastic.co/cn/downloads/kibana
 
+1.下载并解压
+
+2.在文件config/kibana.yml 中配置elasticsearch.url
+> elasticsearch.url: "http://localhost:9200"
+
+3.启动服务
+> bin/kibana
+
+4.访问kibana
+> http://localhost:5601
+
 ![Kibana安装步骤](doc/img/Kibana安装步骤.png)
 
 
