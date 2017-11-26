@@ -1,5 +1,11 @@
 ## ELK 日志分析平台
 
+### 简介
+
+> 1.Logstash收集数据
+> 2.将数据发送给Elasticsearch
+> 3.通过Kibana展示结果
+
 ### E 数据中心及搜索引擎
 Elasticsearch 是一个分布式的 RESTful 风格的搜索和数据分析引擎，能够解决不断涌现出的各种用例。
 作为 Elastic Stack 的核心，它集中存储您的数据，帮助您发现意料之中以及意料之外的情况。
@@ -114,6 +120,11 @@ X-Pack 将诸多强大功能集合到一个单独的程序包中，更将它带�
 
 > logstash-plugin install file:/Users/wujinqing/tools/ELK/x-pack-6.0.0.zip
 
+> xpack.monitoring.elasticsearch.username: logstash_system
+  
+> xpack.monitoring.elasticsearch.password: logstashpassword
+
+> [Setting Up User Authentication](https://www.elastic.co/guide/en/x-pack/6.0/setting-up-authentication.html)
 
 ### 附录A - [Elasticsearch 安装](https://www.elastic.co/downloads/elasticsearch)
 ![Elasticsearch安装步骤](doc/img/Elasticsearch安装步骤.png)
