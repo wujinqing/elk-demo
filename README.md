@@ -24,6 +24,7 @@ X-Pack 将诸多强大功能集合到一个单独的程序包中，更将它带�
 
 如：Security，Alerting，Monitoring，Reporting，Graph，Machine Learning
 
+### Beats 轻量型数据采集器
 
 
 ### Elasticsearch 安装
@@ -126,6 +127,20 @@ X-Pack 将诸多强大功能集合到一个单独的程序包中，更将它带�
 
 > [Setting Up User Authentication](https://www.elastic.co/guide/en/x-pack/6.0/setting-up-authentication.html)
 
+
+### Filebeat安装
+下载地址
+> https://www.elastic.co/cn/downloads/beats/filebeat
+
+1.下载并解压
+
+2.编辑配置文件： filebeat.yml 
+
+3.启动
+
+> sudo ./filebeat -e -c filebeat.yml
+
+
 ### 附录A - [Elasticsearch 安装](https://www.elastic.co/downloads/elasticsearch)
 ![Elasticsearch安装步骤](doc/img/Elasticsearch安装步骤.png)
 
@@ -142,7 +157,8 @@ X-Pack 将诸多强大功能集合到一个单独的程序包中，更将它带�
 ### 附录D - [启用和禁用X-Pack特性](https://www.elastic.co/guide/en/x-pack/current/installing-xpack.html#xpack-installing-offline)
 ![启用和禁用X-Pack特性](doc/img/启用和禁用X-Pack特性.png)
 
-
+### 附录D - [Filebeat安装](https://www.elastic.co/cn/downloads/beats/filebeat)
+![Filebeat安装](doc/img/Filebeat安装步骤.png)
 
 
 
